@@ -1,0 +1,521 @@
+{
+    "context": {
+        "build": {
+            "brand": "google",
+            "device": "tokay",
+            "fingerprint": "google/tokay/tokay:17/CP2A.260705.006/15641320:user/release-keys",
+            "id": "CP2A.260705.006",
+            "model": "Pixel 9",
+            "type": "user",
+            "version": {
+                "codename": "REL",
+                "sdk": 37
+            }
+        },
+        "cpuCoreCount": 8,
+        "cpuLocked": false,
+        "cpuMaxFreqHz": 3105000000,
+        "memTotalBytes": 12133175296,
+        "sustainedPerformanceModeEnabled": false,
+        "artMainlineVersion": 372767600,
+        "osCodenameAbbreviated": "REL",
+        "compilationMode": "run-from-apk",
+        "payload": {}
+    },
+    "benchmarks": [
+        {
+            "name": "reactnative",
+            "params": {},
+            "className": "com.sqlitebenchmark.macro.SqliteSuiteBenchmark",
+            "totalRunTimeNs": 150910557203,
+            "metrics": {
+                "case_blob_insert_length_avgAverageMs": {
+                    "minimum": 64.7630206,
+                    "maximum": 161.3167482,
+                    "median": 135.1650962,
+                    "coefficientOfVariation": 0.2983028305766774,
+                    "runs": [
+                        113.05459800000001,
+                        138.54303399999998,
+                        64.7630206,
+                        161.3167482,
+                        135.1650962
+                    ]
+                },
+                "case_blob_insert_length_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_delete_by_pk_avgAverageMs": {
+                    "minimum": 55.5806722,
+                    "maximum": 103.9212892,
+                    "median": 65.5946774,
+                    "coefficientOfVariation": 0.2776432592842434,
+                    "runs": [
+                        55.5806722,
+                        93.888778,
+                        62.818180600000005,
+                        103.9212892,
+                        65.5946774
+                    ]
+                },
+                "case_delete_by_pk_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_full_scan_aggregate_avgAverageMs": {
+                    "minimum": 39.3850258,
+                    "maximum": 63.02557,
+                    "median": 56.767496400000006,
+                    "coefficientOfVariation": 0.1746985446645077,
+                    "runs": [
+                        56.767496400000006,
+                        58.653263200000005,
+                        39.3850258,
+                        63.02557,
+                        48.9725504
+                    ]
+                },
+                "case_full_scan_aggregate_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_index_create_avgAverageMs": {
+                    "minimum": 0.9755532,
+                    "maximum": 1.5350422,
+                    "median": 1.1975586,
+                    "coefficientOfVariation": 0.20378765595437523,
+                    "runs": [
+                        1.5350422,
+                        1.0240156,
+                        1.1975586,
+                        1.4626379999999999,
+                        0.9755532
+                    ]
+                },
+                "case_index_create_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_indexed_filter_avgAverageMs": {
+                    "minimum": 80.748283,
+                    "maximum": 111.058089,
+                    "median": 103.4772136,
+                    "coefficientOfVariation": 0.14324283866643464,
+                    "runs": [
+                        83.6282798,
+                        106.55260439999999,
+                        80.748283,
+                        111.058089,
+                        103.4772136
+                    ]
+                },
+                "case_indexed_filter_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_insert_autocommit_avgAverageMs": {
+                    "minimum": 140.4734862,
+                    "maximum": 192.7105386,
+                    "median": 161.8465252,
+                    "coefficientOfVariation": 0.141657014475072,
+                    "runs": [
+                        143.7893472,
+                        183.5309656,
+                        140.4734862,
+                        192.7105386,
+                        161.8465252
+                    ]
+                },
+                "case_insert_autocommit_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_insert_transaction_avgAverageMs": {
+                    "minimum": 69.7358238,
+                    "maximum": 208.5720864,
+                    "median": 131.06415199999998,
+                    "coefficientOfVariation": 0.4712522587386866,
+                    "runs": [
+                        69.7358238,
+                        131.06415199999998,
+                        82.5250082,
+                        208.5720864,
+                        205.1401854
+                    ]
+                },
+                "case_insert_transaction_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_join_aggregate_avgAverageMs": {
+                    "minimum": 64.9361166,
+                    "maximum": 83.3940922,
+                    "median": 78.5272954,
+                    "coefficientOfVariation": 0.0958174223849234,
+                    "runs": [
+                        75.1893716,
+                        78.5272954,
+                        83.3940922,
+                        64.9361166,
+                        81.9792482
+                    ]
+                },
+                "case_join_aggregate_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_json_extract_avgAverageMs": {
+                    "minimum": 370.27944360000004,
+                    "maximum": 561.696273,
+                    "median": 433.6971114,
+                    "coefficientOfVariation": 0.16606116862823728,
+                    "runs": [
+                        476.9893478,
+                        401.06464059999996,
+                        561.696273,
+                        433.6971114,
+                        370.27944360000004
+                    ]
+                },
+                "case_json_extract_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_like_search_avgAverageMs": {
+                    "minimum": 78.0423176,
+                    "maximum": 127.27487779999998,
+                    "median": 92.21103500000001,
+                    "coefficientOfVariation": 0.19937542503427236,
+                    "runs": [
+                        90.9722168,
+                        115.94091800000001,
+                        78.0423176,
+                        92.21103500000001,
+                        127.27487779999998
+                    ]
+                },
+                "case_like_search_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_order_limit_avgAverageMs": {
+                    "minimum": 94.42464199999999,
+                    "maximum": 117.1502602,
+                    "median": 97.04893419999999,
+                    "coefficientOfVariation": 0.09210827974194113,
+                    "runs": [
+                        117.1502602,
+                        95.84646000000001,
+                        103.297998,
+                        94.42464199999999,
+                        97.04893419999999
+                    ]
+                },
+                "case_order_limit_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_point_select_avgAverageMs": {
+                    "minimum": 71.9835774,
+                    "maximum": 281.06333060000003,
+                    "median": 251.0316812,
+                    "coefficientOfVariation": 0.45548732073837994,
+                    "runs": [
+                        71.9835774,
+                        275.5396892,
+                        141.454264,
+                        281.06333060000003,
+                        251.0316812
+                    ]
+                },
+                "case_point_select_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_range_scan_avgAverageMs": {
+                    "minimum": 73.8752358,
+                    "maximum": 104.92316880000001,
+                    "median": 75.71760259999999,
+                    "coefficientOfVariation": 0.1704370047528654,
+                    "runs": [
+                        75.71760259999999,
+                        96.5061198,
+                        73.8752358,
+                        74.8158446,
+                        104.92316880000001
+                    ]
+                },
+                "case_range_scan_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_schema_create_drop_avgAverageMs": {
+                    "minimum": 34.8518554,
+                    "maximum": 43.2448404,
+                    "median": 37.8759766,
+                    "coefficientOfVariation": 0.07904298649451093,
+                    "runs": [
+                        37.6482504,
+                        43.2448404,
+                        34.8518554,
+                        38.73007,
+                        37.8759766
+                    ]
+                },
+                "case_schema_create_drop_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_transaction_rollback_avgAverageMs": {
+                    "minimum": 28.4260988,
+                    "maximum": 88.7339358,
+                    "median": 79.55048860000001,
+                    "coefficientOfVariation": 0.3418972020335539,
+                    "runs": [
+                        77.816309,
+                        88.7339358,
+                        28.4260988,
+                        79.55048860000001,
+                        83.143156
+                    ]
+                },
+                "case_transaction_rollback_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_update_by_pk_avgAverageMs": {
+                    "minimum": 138.6151858,
+                    "maximum": 172.9930504,
+                    "median": 160.2060794,
+                    "coefficientOfVariation": 0.08758860685155727,
+                    "runs": [
+                        138.6151858,
+                        147.80710440000001,
+                        165.2178712,
+                        172.9930504,
+                        160.2060794
+                    ]
+                },
+                "case_update_by_pk_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "case_upsert_avgAverageMs": {
+                    "minimum": 129.51589380000001,
+                    "maximum": 148.346452,
+                    "median": 142.78295880000002,
+                    "coefficientOfVariation": 0.06083665532857353,
+                    "runs": [
+                        129.51589380000001,
+                        131.57209519999998,
+                        145.5641684,
+                        142.78295880000002,
+                        148.346452
+                    ]
+                },
+                "case_upsert_countCount": {
+                    "minimum": 5.0,
+                    "maximum": 5.0,
+                    "median": 5.0,
+                    "coefficientOfVariation": 0.0,
+                    "runs": [
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0,
+                        5.0
+                    ]
+                },
+                "timeToInitialDisplayMs": {
+                    "minimum": 187.047851,
+                    "maximum": 202.059855,
+                    "median": 191.690186,
+                    "coefficientOfVariation": 0.030086719760978636,
+                    "runs": [
+                        194.32959,
+                        202.059855,
+                        187.047851,
+                        189.28715,
+                        191.690186
+                    ]
+                }
+            },
+            "sampledMetrics": {},
+            "warmupIterations": 0,
+            "repeatIterations": 5,
+            "thermalThrottleSleepSeconds": 0,
+            "profilerOutputs": [
+                {
+                    "type": "PerfettoTrace",
+                    "label": "Trace Iteration 0",
+                    "filename": "SqliteSuiteBenchmark_reactnative_iter000_2026-09-25-16-23-47.perfetto-trace"
+                },
+                {
+                    "type": "PerfettoTrace",
+                    "label": "Trace Iteration 1",
+                    "filename": "SqliteSuiteBenchmark_reactnative_iter001_2026-09-25-16-24-17.perfetto-trace"
+                },
+                {
+                    "type": "PerfettoTrace",
+                    "label": "Trace Iteration 2",
+                    "filename": "SqliteSuiteBenchmark_reactnative_iter002_2026-09-25-16-24-44.perfetto-trace"
+                },
+                {
+                    "type": "PerfettoTrace",
+                    "label": "Trace Iteration 3",
+                    "filename": "SqliteSuiteBenchmark_reactnative_iter003_2026-09-25-16-25-13.perfetto-trace"
+                },
+                {
+                    "type": "PerfettoTrace",
+                    "label": "Trace Iteration 4",
+                    "filename": "SqliteSuiteBenchmark_reactnative_iter004_2026-09-25-16-25-42.perfetto-trace"
+                }
+            ]
+        }
+    ]
+}

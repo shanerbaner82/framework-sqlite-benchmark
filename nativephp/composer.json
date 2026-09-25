@@ -9,7 +9,8 @@
         "php": "^8.3",
         "laravel/framework": "^13.17",
         "laravel/tinker": "^3.0",
-        "nativephp/mobile": "^4.4",
+        "nativephp/mobile": "^4.5.2",
+        "nativephp/mobile-trace": "*@dev",
         "nativephp/mobile-ui": "^0.4.0"
     },
     "require-dev": {
@@ -84,5 +85,13 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [{
+        "name": "mobile-trace",
+        "type": "path",
+        "url": "./plugins/mobile-trace",
+        "options": {
+            "symlink": true
+        }
+    }]
 }

@@ -1,0 +1,48 @@
+{
+    "name": "nativephp/mobile-trace",
+    "description": "Emit android.os.Trace sections from PHP so Perfetto/Macrobenchmark can measure PHP-side work",
+    "namespace": "Trace",
+    "keywords": [
+        "trace",
+        "perfetto",
+        "macrobenchmark",
+        "benchmark"
+    ],
+    "category": "utilities",
+    "license": "MIT",
+    "platforms": [
+        "android"
+    ],
+    "bridge_functions": [
+        {
+            "name": "Trace.Begin",
+            "android": "com.nativephp.plugins.mobile_trace.TraceFunctions.Begin",
+            "android_params": [
+                "context"
+            ],
+            "description": "android.os.Trace.beginSection(n) on the calling (PHP) thread"
+        },
+        {
+            "name": "Trace.End",
+            "android": "com.nativephp.plugins.mobile_trace.TraceFunctions.End",
+            "android_params": [
+                "context"
+            ],
+            "description": "android.os.Trace.endSection() on the calling (PHP) thread"
+        }
+    ],
+    "android": {
+        "min_version": 26,
+        "permissions": [],
+        "dependencies": {}
+    },
+    "secrets": [],
+    "events": [],
+    "ios": {
+        "min_version": "18.2",
+        "dependencies": {
+            "swift_packages": [],
+            "pods": []
+        }
+    }
+}

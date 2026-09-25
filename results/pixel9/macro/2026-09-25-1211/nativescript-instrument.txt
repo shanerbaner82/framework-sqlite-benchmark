@@ -1,0 +1,290 @@
+INSTRUMENTATION_STATUS: class=com.sqlitebenchmark.macro.SqliteSuiteBenchmark
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.sqlitebenchmark.macro.SqliteSuiteBenchmark:
+INSTRUMENTATION_STATUS: test=nativescript
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: android.studio.display.benchmark=SqliteSuiteBenchmark_nativescript
+  case_blob_insert_length_avgAverageMs     [min  19.3](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  20.9](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  23.9](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_blob_insert_length_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_delete_by_pk_avgAverageMs           [min  20.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  22.5](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  24.8](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_delete_by_pk_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_full_scan_aggregate_avgAverageMs    [min   5.2](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace),   [median   7.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   7.9](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_full_scan_aggregate_countCount      [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_index_create_avgAverageMs           [min   0.6](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   0.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   0.8](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace)
+  case_index_create_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_indexed_filter_avgAverageMs         [min   6.2](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   7.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   8.4](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_indexed_filter_countCount           [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_autocommit_avgAverageMs      [min  49.8](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median  51.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  54.6](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_insert_autocommit_countCount        [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_transaction_avgAverageMs     [min   4.5](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.9](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_transaction_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_join_aggregate_avgAverageMs         [min   4.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   5.9](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   8.0](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_join_aggregate_countCount           [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_json_extract_avgAverageMs           [min 141.5](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median 145.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max 166.7](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_json_extract_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_like_search_avgAverageMs            [min  12.5](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median  13.8](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  18.3](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_like_search_countCount              [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_order_limit_avgAverageMs            [min   5.5](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   6.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   9.2](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_order_limit_countCount              [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_point_select_avgAverageMs           [min  15.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  16.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  19.4](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_point_select_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_range_scan_avgAverageMs             [min   5.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   6.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   9.0](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_range_scan_countCount               [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_schema_create_drop_avgAverageMs     [min  12.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace),   [median  17.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  36.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_schema_create_drop_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_transaction_rollback_avgAverageMs   [min   4.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   4.3](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   4.7](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_transaction_rollback_countCount     [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_update_by_pk_avgAverageMs           [min  43.7](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median  45.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  52.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace)
+  case_update_by_pk_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_upsert_avgAverageMs                 [min  43.7](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median  46.5](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  54.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_upsert_countCount                   [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  timeToInitialDisplayMs                   [min 403.6](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median 443.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max 445.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+    Traces: Iteration [0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace) [1](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace) [2](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace) [3](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace) [4](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace)
+
+INSTRUMENTATION_STATUS: android.studio.v2display.benchmark=SqliteSuiteBenchmark_nativescript
+  case_blob_insert_length_avgAverageMs     [min  19.3](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  20.9](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  23.9](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_blob_insert_length_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_delete_by_pk_avgAverageMs           [min  20.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  22.5](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  24.8](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_delete_by_pk_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_full_scan_aggregate_avgAverageMs    [min   5.2](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace),   [median   7.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   7.9](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_full_scan_aggregate_countCount      [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_index_create_avgAverageMs           [min   0.6](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   0.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   0.8](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace)
+  case_index_create_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_indexed_filter_avgAverageMs         [min   6.2](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   7.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   8.4](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_indexed_filter_countCount           [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_autocommit_avgAverageMs      [min  49.8](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median  51.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  54.6](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_insert_autocommit_countCount        [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_transaction_avgAverageMs     [min   4.5](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.9](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_transaction_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_join_aggregate_avgAverageMs         [min   4.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   5.9](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   8.0](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_join_aggregate_countCount           [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_json_extract_avgAverageMs           [min 141.5](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median 145.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max 166.7](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_json_extract_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_like_search_avgAverageMs            [min  12.5](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median  13.8](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  18.3](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_like_search_countCount              [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_order_limit_avgAverageMs            [min   5.5](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   6.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   9.2](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_order_limit_countCount              [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_point_select_avgAverageMs           [min  15.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  16.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  19.4](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_point_select_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_range_scan_avgAverageMs             [min   5.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   6.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   9.0](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_range_scan_countCount               [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_schema_create_drop_avgAverageMs     [min  12.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace),   [median  17.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  36.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_schema_create_drop_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_transaction_rollback_avgAverageMs   [min   4.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   4.3](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   4.7](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_transaction_rollback_countCount     [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_update_by_pk_avgAverageMs           [min  43.7](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median  45.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  52.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace)
+  case_update_by_pk_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_upsert_avgAverageMs                 [min  43.7](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median  46.5](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  54.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_upsert_countCount                   [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  timeToInitialDisplayMs                   [min 403.6](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median 443.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max 445.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+    Traces: Iteration [0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace) [1](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace) [2](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace) [3](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace) [4](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace)
+
+INSTRUMENTATION_STATUS: android.studio.v2display.benchmark.outputDirPath=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro
+INSTRUMENTATION_STATUS: android.studio.v3display.benchmark=SqliteSuiteBenchmark_nativescript
+  case_blob_insert_length_avgAverageMs     [min  19.3](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  20.9](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  23.9](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_blob_insert_length_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_delete_by_pk_avgAverageMs           [min  20.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  22.5](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  24.8](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_delete_by_pk_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_full_scan_aggregate_avgAverageMs    [min   5.2](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace),   [median   7.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   7.9](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_full_scan_aggregate_countCount      [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_index_create_avgAverageMs           [min   0.6](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   0.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   0.8](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace)
+  case_index_create_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_indexed_filter_avgAverageMs         [min   6.2](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   7.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   8.4](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_indexed_filter_countCount           [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_autocommit_avgAverageMs      [min  49.8](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median  51.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  54.6](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_insert_autocommit_countCount        [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_transaction_avgAverageMs     [min   4.5](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.9](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_insert_transaction_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_join_aggregate_avgAverageMs         [min   4.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   5.9](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   8.0](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_join_aggregate_countCount           [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_json_extract_avgAverageMs           [min 141.5](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median 145.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max 166.7](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_json_extract_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_like_search_avgAverageMs            [min  12.5](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median  13.8](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  18.3](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_like_search_countCount              [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_order_limit_avgAverageMs            [min   5.5](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   6.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   9.2](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_order_limit_countCount              [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_point_select_avgAverageMs           [min  15.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median  16.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  19.4](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_point_select_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_range_scan_avgAverageMs             [min   5.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   6.4](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   9.0](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace)
+  case_range_scan_countCount               [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_schema_create_drop_avgAverageMs     [min  12.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace),   [median  17.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  36.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_schema_create_drop_countCount       [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_transaction_rollback_avgAverageMs   [min   4.1](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [median   4.3](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   4.7](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_transaction_rollback_countCount     [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_update_by_pk_avgAverageMs           [min  43.7](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median  45.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  52.7](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace)
+  case_update_by_pk_countCount             [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  case_upsert_avgAverageMs                 [min  43.7](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace),   [median  46.5](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max  54.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+  case_upsert_countCount                   [min   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median   5.0](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max   5.0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace)
+  timeToInitialDisplayMs                   [min 403.6](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace),   [median 443.6](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace),   [max 445.2](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace)
+    Traces: Iteration [0](file://SqliteSuiteBenchmark_nativescript_iter000_2026-09-25-16-12-12.perfetto-trace) [1](file://SqliteSuiteBenchmark_nativescript_iter001_2026-09-25-16-12-27.perfetto-trace) [2](file://SqliteSuiteBenchmark_nativescript_iter002_2026-09-25-16-12-43.perfetto-trace) [3](file://SqliteSuiteBenchmark_nativescript_iter003_2026-09-25-16-12-59.perfetto-trace) [4](file://SqliteSuiteBenchmark_nativescript_iter004_2026-09-25-16-13-14.perfetto-trace)
+
+INSTRUMENTATION_STATUS: android.studio.v3display.benchmark.outputDirPath=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro
+INSTRUMENTATION_STATUS: case_blob_insert_length_avg_average_millis_max=23.880061599999998
+INSTRUMENTATION_STATUS: case_blob_insert_length_avg_average_millis_median=20.917130399999998
+INSTRUMENTATION_STATUS: case_blob_insert_length_avg_average_millis_min=19.281551
+INSTRUMENTATION_STATUS: case_blob_insert_length_avg_average_millis_stddev=1.7840905213097598
+INSTRUMENTATION_STATUS: case_blob_insert_length_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_blob_insert_length_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_blob_insert_length_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_blob_insert_length_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_delete_by_pk_avg_average_millis_max=24.844417200000002
+INSTRUMENTATION_STATUS: case_delete_by_pk_avg_average_millis_median=22.4855226
+INSTRUMENTATION_STATUS: case_delete_by_pk_avg_average_millis_min=20.738151
+INSTRUMENTATION_STATUS: case_delete_by_pk_avg_average_millis_stddev=1.537047846239873
+INSTRUMENTATION_STATUS: case_delete_by_pk_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_delete_by_pk_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_delete_by_pk_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_delete_by_pk_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_avg_average_millis_max=7.862215000000001
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_avg_average_millis_median=7.0951498
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_avg_average_millis_min=5.2278402
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_avg_average_millis_stddev=1.0412402039944673
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_index_create_avg_average_millis_max=0.7675132
+INSTRUMENTATION_STATUS: case_index_create_avg_average_millis_median=0.6858723999999999
+INSTRUMENTATION_STATUS: case_index_create_avg_average_millis_min=0.6322753999999999
+INSTRUMENTATION_STATUS: case_index_create_avg_average_millis_stddev=0.05201673067169835
+INSTRUMENTATION_STATUS: case_index_create_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_index_create_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_index_create_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_index_create_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_indexed_filter_avg_average_millis_max=8.359497000000001
+INSTRUMENTATION_STATUS: case_indexed_filter_avg_average_millis_median=7.631526599999999
+INSTRUMENTATION_STATUS: case_indexed_filter_avg_average_millis_min=6.2036216
+INSTRUMENTATION_STATUS: case_indexed_filter_avg_average_millis_stddev=0.9282257733979317
+INSTRUMENTATION_STATUS: case_indexed_filter_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_indexed_filter_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_indexed_filter_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_indexed_filter_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_insert_autocommit_avg_average_millis_max=54.5676678
+INSTRUMENTATION_STATUS: case_insert_autocommit_avg_average_millis_median=51.563932199999996
+INSTRUMENTATION_STATUS: case_insert_autocommit_avg_average_millis_min=49.7596274
+INSTRUMENTATION_STATUS: case_insert_autocommit_avg_average_millis_stddev=1.8206357803485775
+INSTRUMENTATION_STATUS: case_insert_autocommit_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_insert_autocommit_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_insert_autocommit_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_insert_autocommit_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_insert_transaction_avg_average_millis_max=5.9465904
+INSTRUMENTATION_STATUS: case_insert_transaction_avg_average_millis_median=4.9572836
+INSTRUMENTATION_STATUS: case_insert_transaction_avg_average_millis_min=4.5048012
+INSTRUMENTATION_STATUS: case_insert_transaction_avg_average_millis_stddev=0.5271805057510377
+INSTRUMENTATION_STATUS: case_insert_transaction_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_insert_transaction_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_insert_transaction_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_insert_transaction_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_join_aggregate_avg_average_millis_max=7.9502764
+INSTRUMENTATION_STATUS: case_join_aggregate_avg_average_millis_median=5.8574466
+INSTRUMENTATION_STATUS: case_join_aggregate_avg_average_millis_min=4.3747966
+INSTRUMENTATION_STATUS: case_join_aggregate_avg_average_millis_stddev=1.4689301886919812
+INSTRUMENTATION_STATUS: case_join_aggregate_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_join_aggregate_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_join_aggregate_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_join_aggregate_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_json_extract_avg_average_millis_max=166.6556476
+INSTRUMENTATION_STATUS: case_json_extract_avg_average_millis_median=145.1466146
+INSTRUMENTATION_STATUS: case_json_extract_avg_average_millis_min=141.5006836
+INSTRUMENTATION_STATUS: case_json_extract_avg_average_millis_stddev=10.92810799266358
+INSTRUMENTATION_STATUS: case_json_extract_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_json_extract_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_json_extract_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_json_extract_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_like_search_avg_average_millis_max=18.27487
+INSTRUMENTATION_STATUS: case_like_search_avg_average_millis_median=13.7825848
+INSTRUMENTATION_STATUS: case_like_search_avg_average_millis_min=12.468473
+INSTRUMENTATION_STATUS: case_like_search_avg_average_millis_stddev=2.5255215574806114
+INSTRUMENTATION_STATUS: case_like_search_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_like_search_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_like_search_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_like_search_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_order_limit_avg_average_millis_max=9.2371094
+INSTRUMENTATION_STATUS: case_order_limit_avg_average_millis_median=6.7384194
+INSTRUMENTATION_STATUS: case_order_limit_avg_average_millis_min=5.464608
+INSTRUMENTATION_STATUS: case_order_limit_avg_average_millis_stddev=1.3761629629332026
+INSTRUMENTATION_STATUS: case_order_limit_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_order_limit_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_order_limit_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_order_limit_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_point_select_avg_average_millis_max=19.4261962
+INSTRUMENTATION_STATUS: case_point_select_avg_average_millis_median=16.744808
+INSTRUMENTATION_STATUS: case_point_select_avg_average_millis_min=15.0064288
+INSTRUMENTATION_STATUS: case_point_select_avg_average_millis_stddev=1.997026383423811
+INSTRUMENTATION_STATUS: case_point_select_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_point_select_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_point_select_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_point_select_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_range_scan_avg_average_millis_max=9.028678600000001
+INSTRUMENTATION_STATUS: case_range_scan_avg_average_millis_median=6.354574
+INSTRUMENTATION_STATUS: case_range_scan_avg_average_millis_min=5.447591
+INSTRUMENTATION_STATUS: case_range_scan_avg_average_millis_stddev=1.444576762380189
+INSTRUMENTATION_STATUS: case_range_scan_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_range_scan_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_range_scan_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_range_scan_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_schema_create_drop_avg_average_millis_max=36.0298828
+INSTRUMENTATION_STATUS: case_schema_create_drop_avg_average_millis_median=17.5753742
+INSTRUMENTATION_STATUS: case_schema_create_drop_avg_average_millis_min=12.234676
+INSTRUMENTATION_STATUS: case_schema_create_drop_avg_average_millis_stddev=9.948197045535519
+INSTRUMENTATION_STATUS: case_schema_create_drop_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_schema_create_drop_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_schema_create_drop_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_schema_create_drop_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_transaction_rollback_avg_average_millis_max=4.69869
+INSTRUMENTATION_STATUS: case_transaction_rollback_avg_average_millis_median=4.3379476
+INSTRUMENTATION_STATUS: case_transaction_rollback_avg_average_millis_min=4.0657388
+INSTRUMENTATION_STATUS: case_transaction_rollback_avg_average_millis_stddev=0.2473595837674377
+INSTRUMENTATION_STATUS: case_transaction_rollback_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_transaction_rollback_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_transaction_rollback_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_transaction_rollback_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_update_by_pk_avg_average_millis_max=52.739501800000006
+INSTRUMENTATION_STATUS: case_update_by_pk_avg_average_millis_median=45.7124594
+INSTRUMENTATION_STATUS: case_update_by_pk_avg_average_millis_min=43.6644286
+INSTRUMENTATION_STATUS: case_update_by_pk_avg_average_millis_stddev=4.133062119305773
+INSTRUMENTATION_STATUS: case_update_by_pk_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_update_by_pk_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_update_by_pk_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_update_by_pk_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_upsert_avg_average_millis_max=54.170052
+INSTRUMENTATION_STATUS: case_upsert_avg_average_millis_median=46.4735676
+INSTRUMENTATION_STATUS: case_upsert_avg_average_millis_min=43.7464194
+INSTRUMENTATION_STATUS: case_upsert_avg_average_millis_stddev=4.028524221305004
+INSTRUMENTATION_STATUS: case_upsert_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_upsert_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_upsert_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_upsert_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: time_to_initial_display_millis_max=445.248658
+INSTRUMENTATION_STATUS: time_to_initial_display_millis_median=443.590413
+INSTRUMENTATION_STATUS: time_to_initial_display_millis_min=403.576254
+INSTRUMENTATION_STATUS: time_to_initial_display_millis_stddev=17.98641019205629
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: class=com.sqlitebenchmark.macro.SqliteSuiteBenchmark
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=nativescript
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 91.536
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1

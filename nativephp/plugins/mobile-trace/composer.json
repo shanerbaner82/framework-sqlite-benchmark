@@ -1,0 +1,27 @@
+{
+    "name": "nativephp/mobile-trace",
+    "description": "Benchmark aid: android.os.Trace sections from PHP (Trace.Begin / Trace.End bridge functions)",
+    "type": "nativephp-plugin",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "nativephp/mobile": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nativephp\\MobileTrace\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nativephp\\MobileTrace\\TraceServiceProvider"
+            ]
+        },
+        "nativephp": {
+            "manifest": "nativephp.json"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

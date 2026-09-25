@@ -3,6 +3,7 @@
 namespace App;
 
 use Generator;
+use Illuminate\Database\Connection;
 use PDO;
 use RuntimeException;
 use Throwable;
@@ -13,10 +14,22 @@ final class Benchmark
     private const WRITE_ROWS = 400;
     private const INSERT = 'INSERT INTO writes (id, category, score, title, payload) VALUES (?, ?, ?, ?, ?)';
 
-    public function __construct(private PDO $db) {}
+    /**
+     * $db is the raw PDO handle.
+     * When $connection is given, every call goes through Laravel's DB connection
+     * (statement()/select()/beginTransaction()) instead of the raw handle: same SQL, same counts.
+     */
+    public function __construct(private object $db, private ?Connection $connection = null) {}
+
+    /** Optional object with begin(string)/end(): android.os.Trace `case:<name>` sections around each timed sample (Macrobenchmark). */
+    public ?object $tracer = null;
 
     private function exec(string $sql, array $params = []): void
     {
+        if ($this->connection) {
+            $this->connection->statement($sql, $params);
+            return;
+        }
         $statement = $this->db->prepare($sql);
         $statement->execute($params);
         $statement->closeCursor();
@@ -24,6 +37,9 @@ final class Benchmark
 
     private function rows(string $sql, array $params = []): array
     {
+        if ($this->connection) {
+            return array_map(fn ($row) => (array) $row, $this->connection->select($sql, $params));
+        }
         $statement = $this->db->prepare($sql);
         $statement->execute($params);
         return $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -53,14 +69,15 @@ final class Benchmark
     /** Timed case bodies are generators that yield after every SQL call, so a driver can interleave each call with a UI round-trip. */
     private function transaction(callable $callback): Generator
     {
-        $this->db->beginTransaction();
+        $tx = $this->connection ?? $this->db;
+        $tx->beginTransaction();
         yield;
         try {
             yield from $callback();
-            $this->db->commit();
+            $tx->commit();
             yield;
         } catch (Throwable $e) {
-            $this->db->rollBack();
+            $tx->rollBack();
             yield;
             throw $e;
         }
@@ -137,9 +154,15 @@ final class Benchmark
         try {
             for ($repeat = -1; $repeat < 5; $repeat++) {
                 if ($setup) $setup();
+                $traced = $this->tracer && $repeat >= 0;
+                if ($traced) $this->tracer->begin("case:$name");
                 $start = hrtime(true);
-                yield from $body();
-                $elapsed = (hrtime(true) - $start) / 1_000_000;
+                try {
+                    yield from $body();
+                    $elapsed = (hrtime(true) - $start) / 1_000_000;
+                } finally {
+                    if ($traced) $this->tracer->end();
+                }
                 if ($verify) $verify();
                 if ($repeat >= 0) $samples[] = $elapsed;
             }

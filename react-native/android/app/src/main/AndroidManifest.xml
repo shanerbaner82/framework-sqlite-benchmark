@@ -11,6 +11,8 @@
       android:theme="@style/AppTheme"
       android:usesCleartextTraffic="${usesCleartextTraffic}"
       android:supportsRtl="true">
+      <!-- Benchmark-only: lets Macrobenchmark/Perfetto trace this non-debuggable release build (same as NativePHP's profileable variant). -->
+      <profileable android:shell="true" />
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"

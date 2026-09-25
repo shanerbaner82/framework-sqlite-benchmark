@@ -1,0 +1,9 @@
+ro.product.model=Pixel 9
+ro.product.device=tokay
+ro.build.version.release=17
+ro.build.version.sdk=37
+ro.build.fingerprint=google/tokay/tokay:17/CP2A.260705.006/15641320:user/release-keys
+ro.kernel.qemu=
+com.sqlitebenchmark.nativescript     versionName=1.0.0 flags: pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+com.sqlitebenchmark.reactnative     versionName=1.0 flags: pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+com.sqlitebenchmark.nativephp     versionName=1.0.2609251207 flags: pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]

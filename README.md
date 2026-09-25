@@ -90,3 +90,15 @@ The benchmark resets only its own `items`, `events`, `writes`, and `blobs` table
 - Android functional verification uses the `Medium_Phone_API_36.1` emulator and checks the result list plus `integrity_check`.
 
 The measured emulator comparison is in [RESULTS.md](RESULTS.md). The connected Pixel 7 release comparison, signed APKs, and raw reports are in [RESULTS-PIXEL7.md](RESULTS-PIXEL7.md).
+
+## Automated runs (Jetpack Macrobenchmark)
+
+`macrobenchmark/` is a standalone Gradle project that drives each app over repeated cold starts instead of one manual run, so results come with per-iteration values and a run-to-run spread rather than a single sample. Each app wraps every timed sample in an `android.os.Trace` section, and `TraceSectionMetric` reads them back; `Mode.Count` verifies no sample was dropped. `scripts/macro/` holds a bash port of the build steps above plus the run and reporting scripts.
+
+```bash
+scripts/macro/build.sh              # rn ns nativephp -> builds/*.apk
+scripts/macro/macro.sh <SERIAL> 5   # 5 cold-start iterations per app/mode, with cooldowns
+python3 scripts/macro/table_png.py results/pixel9/macro/<RUN_TAG>
+```
+
+A Pixel 9 comparison produced this way, including the caveat about NativePHP's PHP-loop mode having no per-call boundary, is in [RESULTS-PIXEL9.md](RESULTS-PIXEL9.md).

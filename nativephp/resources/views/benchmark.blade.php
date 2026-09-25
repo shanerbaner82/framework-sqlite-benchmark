@@ -15,7 +15,7 @@
 <body>
     <h2>SQLite benchmark · NativePHP</h2>
     <p>2,000 fixture rows · 17 cases · 1 warmup + 5 samples</p>
-    <button id="run">Run PHP loop</button><button id="run-ui">Run per-query UI benchmark</button><button id="download" hidden>Download JSON</button>
+    <button id="run">Run PHP loop</button><button id="run-laravel">PHP loop Laravel DB</button><button id="run-ui">Run per-query UI benchmark</button><button id="download" hidden>Download JSON</button>
     <p id="status">Ready</p>
     <table id="results"></table>
     <pre id="json"></pre>
@@ -50,7 +50,7 @@
         };
         const show = result => {
             report = result;
-            document.getElementById('status').textContent = `Complete · SQLite ${result.metadata.sqlite_version} · integrity ${result.metadata.integrity_check}`;
+            document.getElementById('status').textContent = `Complete · ${result.driver} · SQLite ${result.metadata.sqlite_version} · integrity ${result.metadata.integrity_check}`;
             document.getElementById('results').innerHTML = result.results.map(r => `<tr><td>${r.name}</td><td>${r.status === 'ok' ? r.median_ms.toFixed(2) + ' ms · ' + r.ops_per_second + ' ops/s' : 'ERROR ' + r.error}</td></tr>`).join('');
             document.getElementById('json').textContent = JSON.stringify(result, null, 2);
             document.getElementById('download').hidden = false;
@@ -61,8 +61,7 @@
             console.log(`SQLITE_BENCHMARK_DONE ${runId}`);
         };
         const run = async mode => {
-            document.getElementById('run').disabled = true;
-            document.getElementById('run-ui').disabled = true;
+            document.querySelectorAll('button').forEach(b => b.disabled = true);
             document.getElementById('status').textContent = 'Running benchmark…';
             document.getElementById('results').innerHTML = '';
             document.getElementById('download').hidden = true;
@@ -72,15 +71,15 @@
                     const completed = { framework: 'NativePHP WebView', driver: 'per-query fetch to Laravel SQLite PDO', ...result };
                     await post('/report', completed);
                     show(completed);
-                } else show(await post('/run', {}));
+                } else show(await post('/run', mode));
             } catch (error) {
                 document.getElementById('status').textContent = String(error);
             } finally {
-                document.getElementById('run').disabled = false;
-                document.getElementById('run-ui').disabled = false;
+                document.querySelectorAll('button').forEach(b => b.disabled = false);
             }
         };
-        document.getElementById('run').onclick = () => run('php');
+        document.getElementById('run').onclick = () => run({ api: 'pdo' });
+        document.getElementById('run-laravel').onclick = () => run({ api: 'laravel' });
         document.getElementById('run-ui').onclick = () => run('ui');
         document.getElementById('download').onclick = () => {
             const a = document.createElement('a');

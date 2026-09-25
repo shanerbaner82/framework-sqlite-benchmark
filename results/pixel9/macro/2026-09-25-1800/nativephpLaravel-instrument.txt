@@ -1,0 +1,297 @@
+INSTRUMENTATION_STATUS: class=com.sqlitebenchmark.macro.SqliteSuiteBenchmark
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.sqlitebenchmark.macro.SqliteSuiteBenchmark:
+INSTRUMENTATION_STATUS: test=nativephpLaravel
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: additionalTestOutputFile_SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro/SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: android.studio.display.benchmark=SqliteSuiteBenchmark_nativephpLaravel
+  case_blob_insert_length_avgAverageMs     [min    11.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median    11.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    23.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_blob_insert_length_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_delete_by_pk_avgAverageMs           [min    14.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median    14.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    15.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_delete_by_pk_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_full_scan_aggregate_avgAverageMs    [min     2.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     2.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_full_scan_aggregate_countCount      [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_index_create_avgAverageMs           [min     0.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median     0.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     0.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_index_create_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_indexed_filter_avgAverageMs         [min     2.3](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median     2.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_indexed_filter_countCount           [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_autocommit_avgAverageMs      [min    50.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median    52.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    57.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_insert_autocommit_countCount        [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_transaction_avgAverageMs     [min     4.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median     5.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     9.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_transaction_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_join_aggregate_avgAverageMs         [min     1.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_join_aggregate_countCount           [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_json_extract_avgAverageMs           [min    61.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    62.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    63.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_json_extract_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_like_search_avgAverageMs            [min     7.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [median     7.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     7.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_like_search_countCount              [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_order_limit_avgAverageMs            [min     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_order_limit_countCount              [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_point_select_avgAverageMs           [min     4.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median     4.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     8.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace)
+  case_point_select_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_range_scan_avgAverageMs             [min     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_range_scan_countCount               [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_schema_create_drop_avgAverageMs     [min    11.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    12.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    13.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_schema_create_drop_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_transaction_rollback_avgAverageMs   [min     1.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [median     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_transaction_rollback_countCount     [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_update_by_pk_avgAverageMs           [min    28.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    29.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    29.3](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_update_by_pk_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_upsert_avgAverageMs                 [min    30.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median    30.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    31.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_upsert_countCount                   [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  timeToFullDisplayMs                      [min 1,026.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median 1,085.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max 1,110.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  timeToInitialDisplayMs                   [min   271.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median   274.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max   280.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+    Traces: Iteration [0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace) [1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace) [2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace) [3](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace) [4](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace)
+
+INSTRUMENTATION_STATUS: android.studio.v2display.benchmark=SqliteSuiteBenchmark_nativephpLaravel
+  case_blob_insert_length_avgAverageMs     [min    11.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median    11.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    23.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_blob_insert_length_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_delete_by_pk_avgAverageMs           [min    14.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median    14.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    15.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_delete_by_pk_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_full_scan_aggregate_avgAverageMs    [min     2.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     2.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_full_scan_aggregate_countCount      [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_index_create_avgAverageMs           [min     0.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median     0.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     0.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_index_create_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_indexed_filter_avgAverageMs         [min     2.3](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median     2.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_indexed_filter_countCount           [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_autocommit_avgAverageMs      [min    50.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median    52.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    57.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_insert_autocommit_countCount        [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_transaction_avgAverageMs     [min     4.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median     5.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     9.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_transaction_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_join_aggregate_avgAverageMs         [min     1.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_join_aggregate_countCount           [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_json_extract_avgAverageMs           [min    61.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    62.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    63.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_json_extract_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_like_search_avgAverageMs            [min     7.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [median     7.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     7.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_like_search_countCount              [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_order_limit_avgAverageMs            [min     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_order_limit_countCount              [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_point_select_avgAverageMs           [min     4.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median     4.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     8.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace)
+  case_point_select_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_range_scan_avgAverageMs             [min     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_range_scan_countCount               [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_schema_create_drop_avgAverageMs     [min    11.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    12.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    13.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_schema_create_drop_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_transaction_rollback_avgAverageMs   [min     1.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [median     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_transaction_rollback_countCount     [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_update_by_pk_avgAverageMs           [min    28.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    29.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    29.3](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_update_by_pk_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_upsert_avgAverageMs                 [min    30.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median    30.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    31.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_upsert_countCount                   [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  timeToFullDisplayMs                      [min 1,026.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median 1,085.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max 1,110.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  timeToInitialDisplayMs                   [min   271.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median   274.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max   280.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+    Traces: Iteration [0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace) [1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace) [2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace) [3](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace) [4](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace)
+
+INSTRUMENTATION_STATUS: android.studio.v2display.benchmark.outputDirPath=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro
+INSTRUMENTATION_STATUS: android.studio.v3display.benchmark=SqliteSuiteBenchmark_nativephpLaravel
+  case_blob_insert_length_avgAverageMs     [min    11.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median    11.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    23.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_blob_insert_length_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_delete_by_pk_avgAverageMs           [min    14.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median    14.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    15.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_delete_by_pk_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_full_scan_aggregate_avgAverageMs    [min     2.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     2.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_full_scan_aggregate_countCount      [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_index_create_avgAverageMs           [min     0.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median     0.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     0.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_index_create_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_indexed_filter_avgAverageMs         [min     2.3](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median     2.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_indexed_filter_countCount           [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_autocommit_avgAverageMs      [min    50.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median    52.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    57.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_insert_autocommit_countCount        [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_transaction_avgAverageMs     [min     4.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median     5.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     9.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_insert_transaction_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_join_aggregate_avgAverageMs         [min     1.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_join_aggregate_countCount           [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_json_extract_avgAverageMs           [min    61.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    62.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    63.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_json_extract_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_like_search_avgAverageMs            [min     7.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [median     7.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     7.4](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_like_search_countCount              [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_order_limit_avgAverageMs            [min     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_order_limit_countCount              [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_point_select_avgAverageMs           [min     4.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median     4.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     8.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace)
+  case_point_select_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_range_scan_avgAverageMs             [min     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace),   [median     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_range_scan_countCount               [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_schema_create_drop_avgAverageMs     [min    11.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    12.8](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    13.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  case_schema_create_drop_countCount       [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_transaction_rollback_avgAverageMs   [min     1.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [median     2.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     2.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace)
+  case_transaction_rollback_countCount     [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_update_by_pk_avgAverageMs           [min    28.9](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median    29.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    29.3](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_update_by_pk_countCount             [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  case_upsert_avgAverageMs                 [min    30.6](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace),   [median    30.7](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max    31.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace)
+  case_upsert_countCount                   [min     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max     5.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace)
+  timeToFullDisplayMs                      [min 1,026.5](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace),   [median 1,085.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max 1,110.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+  timeToInitialDisplayMs                   [min   271.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace),   [median   274.0](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace),   [max   280.1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace)
+    Traces: Iteration [0](file://SqliteSuiteBenchmark_nativephpLaravel_iter000_2026-09-25-22-10-43.perfetto-trace) [1](file://SqliteSuiteBenchmark_nativephpLaravel_iter001_2026-09-25-22-10-58.perfetto-trace) [2](file://SqliteSuiteBenchmark_nativephpLaravel_iter002_2026-09-25-22-11-12.perfetto-trace) [3](file://SqliteSuiteBenchmark_nativephpLaravel_iter003_2026-09-25-22-11-25.perfetto-trace) [4](file://SqliteSuiteBenchmark_nativephpLaravel_iter004_2026-09-25-22-11-39.perfetto-trace)
+
+INSTRUMENTATION_STATUS: android.studio.v3display.benchmark.outputDirPath=/storage/emulated/0/Android/media/com.sqlitebenchmark.macro
+INSTRUMENTATION_STATUS: case_blob_insert_length_avg_average_millis_max=23.055802399999997
+INSTRUMENTATION_STATUS: case_blob_insert_length_avg_average_millis_median=11.394824199999999
+INSTRUMENTATION_STATUS: case_blob_insert_length_avg_average_millis_min=10.961246800000001
+INSTRUMENTATION_STATUS: case_blob_insert_length_avg_average_millis_stddev=5.226891518187941
+INSTRUMENTATION_STATUS: case_blob_insert_length_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_blob_insert_length_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_blob_insert_length_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_blob_insert_length_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_delete_by_pk_avg_average_millis_max=15.010083
+INSTRUMENTATION_STATUS: case_delete_by_pk_avg_average_millis_median=14.6768308
+INSTRUMENTATION_STATUS: case_delete_by_pk_avg_average_millis_min=14.183300800000001
+INSTRUMENTATION_STATUS: case_delete_by_pk_avg_average_millis_stddev=0.3083681702727303
+INSTRUMENTATION_STATUS: case_delete_by_pk_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_delete_by_pk_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_delete_by_pk_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_delete_by_pk_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_avg_average_millis_max=5.0507484
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_avg_average_millis_median=2.868986
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_avg_average_millis_min=2.6765543999999997
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_avg_average_millis_stddev=1.2074487961863773
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_full_scan_aggregate_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_index_create_avg_average_millis_max=0.794189
+INSTRUMENTATION_STATUS: case_index_create_avg_average_millis_median=0.4739744
+INSTRUMENTATION_STATUS: case_index_create_avg_average_millis_min=0.4565106
+INSTRUMENTATION_STATUS: case_index_create_avg_average_millis_stddev=0.14584590323362534
+INSTRUMENTATION_STATUS: case_index_create_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_index_create_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_index_create_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_index_create_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_indexed_filter_avg_average_millis_max=2.6821614
+INSTRUMENTATION_STATUS: case_indexed_filter_avg_average_millis_median=2.4263914
+INSTRUMENTATION_STATUS: case_indexed_filter_avg_average_millis_min=2.3025312
+INSTRUMENTATION_STATUS: case_indexed_filter_avg_average_millis_stddev=0.1521254201920903
+INSTRUMENTATION_STATUS: case_indexed_filter_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_indexed_filter_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_indexed_filter_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_indexed_filter_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_insert_autocommit_avg_average_millis_max=56.9774414
+INSTRUMENTATION_STATUS: case_insert_autocommit_avg_average_millis_median=52.930476999999996
+INSTRUMENTATION_STATUS: case_insert_autocommit_avg_average_millis_min=50.611434200000005
+INSTRUMENTATION_STATUS: case_insert_autocommit_avg_average_millis_stddev=2.8907407408745405
+INSTRUMENTATION_STATUS: case_insert_autocommit_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_insert_autocommit_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_insert_autocommit_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_insert_autocommit_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_insert_transaction_avg_average_millis_max=9.0953368
+INSTRUMENTATION_STATUS: case_insert_transaction_avg_average_millis_median=5.4674233999999995
+INSTRUMENTATION_STATUS: case_insert_transaction_avg_average_millis_min=4.821761
+INSTRUMENTATION_STATUS: case_insert_transaction_avg_average_millis_stddev=1.7733261745596742
+INSTRUMENTATION_STATUS: case_insert_transaction_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_insert_transaction_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_insert_transaction_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_insert_transaction_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_join_aggregate_avg_average_millis_max=2.1751628
+INSTRUMENTATION_STATUS: case_join_aggregate_avg_average_millis_median=1.9510739999999998
+INSTRUMENTATION_STATUS: case_join_aggregate_avg_average_millis_min=1.8627928
+INSTRUMENTATION_STATUS: case_join_aggregate_avg_average_millis_stddev=0.11935276147954005
+INSTRUMENTATION_STATUS: case_join_aggregate_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_join_aggregate_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_join_aggregate_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_join_aggregate_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_json_extract_avg_average_millis_max=63.082764
+INSTRUMENTATION_STATUS: case_json_extract_avg_average_millis_median=62.442089599999996
+INSTRUMENTATION_STATUS: case_json_extract_avg_average_millis_min=61.6242432
+INSTRUMENTATION_STATUS: case_json_extract_avg_average_millis_stddev=0.525994572958283
+INSTRUMENTATION_STATUS: case_json_extract_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_json_extract_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_json_extract_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_json_extract_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_like_search_avg_average_millis_max=7.378279399999999
+INSTRUMENTATION_STATUS: case_like_search_avg_average_millis_median=7.162166399999999
+INSTRUMENTATION_STATUS: case_like_search_avg_average_millis_min=7.0413738
+INSTRUMENTATION_STATUS: case_like_search_avg_average_millis_stddev=0.14925033945082994
+INSTRUMENTATION_STATUS: case_like_search_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_like_search_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_like_search_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_like_search_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_order_limit_avg_average_millis_max=2.1475098
+INSTRUMENTATION_STATUS: case_order_limit_avg_average_millis_median=2.0966636000000003
+INSTRUMENTATION_STATUS: case_order_limit_avg_average_millis_min=2.0203942
+INSTRUMENTATION_STATUS: case_order_limit_avg_average_millis_stddev=0.047433411893811686
+INSTRUMENTATION_STATUS: case_order_limit_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_order_limit_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_order_limit_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_order_limit_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_point_select_avg_average_millis_max=8.1233074
+INSTRUMENTATION_STATUS: case_point_select_avg_average_millis_median=4.9113932
+INSTRUMENTATION_STATUS: case_point_select_avg_average_millis_min=4.6218753999999995
+INSTRUMENTATION_STATUS: case_point_select_avg_average_millis_stddev=1.6783927613280927
+INSTRUMENTATION_STATUS: case_point_select_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_point_select_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_point_select_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_point_select_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_range_scan_avg_average_millis_max=2.2472491999999997
+INSTRUMENTATION_STATUS: case_range_scan_avg_average_millis_median=2.1841795999999998
+INSTRUMENTATION_STATUS: case_range_scan_avg_average_millis_min=2.0745852
+INSTRUMENTATION_STATUS: case_range_scan_avg_average_millis_stddev=0.06658557172757464
+INSTRUMENTATION_STATUS: case_range_scan_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_range_scan_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_range_scan_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_range_scan_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_schema_create_drop_avg_average_millis_max=13.9387372
+INSTRUMENTATION_STATUS: case_schema_create_drop_avg_average_millis_median=12.7631348
+INSTRUMENTATION_STATUS: case_schema_create_drop_avg_average_millis_min=11.541796999999999
+INSTRUMENTATION_STATUS: case_schema_create_drop_avg_average_millis_stddev=0.9132236622121159
+INSTRUMENTATION_STATUS: case_schema_create_drop_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_schema_create_drop_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_schema_create_drop_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_schema_create_drop_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_transaction_rollback_avg_average_millis_max=2.0565186
+INSTRUMENTATION_STATUS: case_transaction_rollback_avg_average_millis_median=1.9657388
+INSTRUMENTATION_STATUS: case_transaction_rollback_avg_average_millis_min=1.8677651999999998
+INSTRUMENTATION_STATUS: case_transaction_rollback_avg_average_millis_stddev=0.07119699365108058
+INSTRUMENTATION_STATUS: case_transaction_rollback_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_transaction_rollback_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_transaction_rollback_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_transaction_rollback_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_update_by_pk_avg_average_millis_max=29.3011962
+INSTRUMENTATION_STATUS: case_update_by_pk_avg_average_millis_median=28.9736736
+INSTRUMENTATION_STATUS: case_update_by_pk_avg_average_millis_min=28.867341800000002
+INSTRUMENTATION_STATUS: case_update_by_pk_avg_average_millis_stddev=0.19209755775747894
+INSTRUMENTATION_STATUS: case_update_by_pk_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_update_by_pk_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_update_by_pk_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_update_by_pk_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: case_upsert_avg_average_millis_max=31.5064698
+INSTRUMENTATION_STATUS: case_upsert_avg_average_millis_median=30.740747399999997
+INSTRUMENTATION_STATUS: case_upsert_avg_average_millis_min=30.599292000000002
+INSTRUMENTATION_STATUS: case_upsert_avg_average_millis_stddev=0.3765703358982234
+INSTRUMENTATION_STATUS: case_upsert_count_count_max=5.0
+INSTRUMENTATION_STATUS: case_upsert_count_count_median=5.0
+INSTRUMENTATION_STATUS: case_upsert_count_count_min=5.0
+INSTRUMENTATION_STATUS: case_upsert_count_count_stddev=0.0
+INSTRUMENTATION_STATUS: time_to_full_display_millis_max=1110.000692
+INSTRUMENTATION_STATUS: time_to_full_display_millis_median=1085.055908
+INSTRUMENTATION_STATUS: time_to_full_display_millis_min=1026.535198
+INSTRUMENTATION_STATUS: time_to_full_display_millis_stddev=31.75741912410775
+INSTRUMENTATION_STATUS: time_to_initial_display_millis_max=280.143026
+INSTRUMENTATION_STATUS: time_to_initial_display_millis_median=274.035401
+INSTRUMENTATION_STATUS: time_to_initial_display_millis_min=271.101481
+INSTRUMENTATION_STATUS: time_to_initial_display_millis_stddev=3.9932734520799937
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: class=com.sqlitebenchmark.macro.SqliteSuiteBenchmark
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=nativephpLaravel
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 92.957
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1

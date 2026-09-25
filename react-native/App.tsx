@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, ScrollView, Share, StatusBar, StyleSheet, Text, View } from 'react-native';
+import { Button, NativeModules, ScrollView, Share, StatusBar, StyleSheet, Text, View } from 'react-native';
 import { openBenchmarkDatabase } from './benchmark/database';
 import { runBenchmark } from './benchmark/runner';
 
@@ -13,7 +13,9 @@ export default function App() {
     setReport(null);
     const db = openBenchmarkDatabase();
     try {
-      const result = await runBenchmark(db, (name: string) => setStatus(`Running ${name}`));
+      // android.os.Trace sections (case:<name>) on the JS thread for Macrobenchmark's TraceSectionMetric.
+      const trace = NativeModules.BenchTrace ? { begin: (n: string) => NativeModules.BenchTrace.beginSection(n), end: () => NativeModules.BenchTrace.endSection() } : null;
+      const result = await runBenchmark(db, (name: string) => setStatus(`Running ${name}`), 5, trace);
       const completed = { framework: 'React Native', driver: 'react-native-nitro-sqlite', ...result };
       const json = JSON.stringify(completed);
       const runId = Date.now();

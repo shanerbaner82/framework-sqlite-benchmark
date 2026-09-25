@@ -17,3 +17,8 @@ native-sqlite-fork/tools/
 native-sqlite-fork/packages/*
 !native-sqlite-fork/packages/nativescript-sqlite/
 native-sqlite-fork/yarn.lock
+
+# Macrobenchmark harness: build outputs and machine-local paths
+builds/
+macrobenchmark/local.properties
+*.perfetto-trace

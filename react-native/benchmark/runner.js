@@ -104,7 +104,9 @@ const cases = [
   },
 ];
 
-export async function runBenchmark(db, onProgress = (_name) => {}, sampleCount = 5) {
+// trace (optional): { begin(name), end() } -> android.os.Trace sections named `case:<name>` around
+// each TIMED sample only (not the warmup), outside the per-query loop. Read by Macrobenchmark.
+export async function runBenchmark(db, onProgress = (_name) => {}, sampleCount = 5, trace = null) {
   await db.exec('PRAGMA journal_mode=WAL');
   await db.exec('PRAGMA synchronous=FULL');
   await db.exec('PRAGMA foreign_keys=ON');
@@ -137,9 +139,16 @@ export async function runBenchmark(db, onProgress = (_name) => {}, sampleCount =
     try {
       for (let repeat = -1; repeat < sampleCount; repeat++) {
         if (c.setup) await c.setup(db);
+        const traced = trace && repeat >= 0;
+        if (traced) trace.begin('case:' + c.name);
+        let elapsed;
         const start = now();
-        await c.run(db);
-        const elapsed = now() - start;
+        try {
+          await c.run(db);
+          elapsed = now() - start;
+        } finally {
+          if (traced) trace.end();
+        }
         if (c.verify) await c.verify(db);
         if (repeat >= 0) samples.push(elapsed);
       }

@@ -18,7 +18,9 @@ export default function Home() {
       transaction: fn => db.transaction(tx => fn({ exec: (sql, params = []) => tx.execute(sql, params) })),
     };
     try {
-      const result = await runBenchmark(adapter, setStatus);
+      // android.os.Trace sections (case:<name>) for Macrobenchmark's TraceSectionMetric; JS runs on the main thread here.
+      const trace = { begin: name => android.os.Trace.beginSection(name), end: () => android.os.Trace.endSection() };
+      const result = await runBenchmark(adapter, setStatus, 5, trace);
       const report = { framework: 'NativeScript SolidJS', driver: '@edusperoni/nativescript-sqlite', ...result };
       const output = knownFolders.documents().path + '/sqlite-benchmark-results.json';
       await File.fromPath(output).writeText(JSON.stringify(report, null, 2));

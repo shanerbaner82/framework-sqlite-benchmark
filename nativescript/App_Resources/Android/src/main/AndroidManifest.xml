@@ -21,6 +21,9 @@
 		android:theme="@style/AppTheme"
 		android:hardwareAccelerated="true">
 
+		<!-- Benchmark-only: lets Macrobenchmark/Perfetto trace this non-debuggable release build (same as NativePHP's profileable variant). -->
+		<profileable android:shell="true" />
+
 		<activity
 			android:name="com.tns.NativeScriptActivity"
 			android:label="@string/title_activity_kimera"
